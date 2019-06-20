@@ -4,9 +4,11 @@ import (
 	"fmt"
 )
 
+// When you want to create a variable outside the function body,
+// the short declaration operator will not work. Instead use 'var'
 func main() {
-	a := 5
-	b := 6
+	var a int = 5
+	var b int = 6
 
 	go func() {
 		b = a * b
