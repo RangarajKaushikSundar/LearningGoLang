@@ -46,4 +46,9 @@ func main() {
 	secondSlice = append(secondSlice[:2], secondSlice[5:]...)
 	fmt.Println(secondSlice)
 
+	fmt.Println()
+	// Multidimensional slices
+	matrix := [][]string{[]string{"Name", "Age"}, []string{"Kaushik", "29"}}
+	fmt.Println(matrix)
+
 }
