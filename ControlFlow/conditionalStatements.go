@@ -17,6 +17,7 @@ func main() {
 	}
 	// fmt.Println("i is out of scope here", i)
 
+	//  Missing switch expression defaults to `true`
 	switch {
 	case 1 == 2:
 		fmt.Println(" One is equal to Two")
@@ -38,7 +39,6 @@ func main() {
 		fmt.Println("This is not James Bond")
 	case "TUX":
 		fmt.Println("This is TUX")
-
 	}
 
 }
